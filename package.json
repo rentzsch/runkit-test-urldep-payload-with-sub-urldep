@@ -5,10 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "lodash.isnull": "2.1.0",
-    "runkit-test-urldep-payload-leaf": "rentzsch/runkit-test-urldep-payload-leaf#v5.2.0"
+    "runkit-test-urldep-payload-leaf": "rentzsch/runkit-test-urldep-payload-leaf#13b417e64379567389acde0f74468373dfd65ce0"
   },
   "bundledDependencies": [
-    "lodash.isnull",
-    "runkit-test-urldep-payload-leaf"
+    "lodash.isnull"
   ]
 }
