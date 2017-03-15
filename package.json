@@ -1,0 +1,14 @@
+{
+  "name": "runkit-test-urldep-payload-with-sub-urldep",
+  "version": "1.0.0",
+  "main": "runkit-test-urldep-payload-with-sub-urldep.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.isnull": "2.1.0",
+    "runkit-test-urldep-payload-leaf": "rentzsch/runkit-test-urldep-payload-leaf#v5.2.0"
+  },
+  "bundledDependencies": [
+    "lodash.isnull",
+    "runkit-test-urldep-payload-leaf"
+  ]
+}
