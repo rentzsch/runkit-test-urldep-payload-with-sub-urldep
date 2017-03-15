@@ -10,7 +10,7 @@ const runkitTestUrldepPayloadLeafVersion = require("runkit-test-urldep-payload-l
 assert.deepStrictEqual(runkitTestUrldepPayloadLeafVersion, "5.2.0");
 
 module.exports = {
-  name: "runkit-test-urldep-payload-leaf",
+  name: "runkit-test-urldep-payload-with-sub-urldep",
   version: thisPackageVersion,
   "runkit-test-urldep-payload-leaf": runkitTestUrldepPayloadLeaf
 };
