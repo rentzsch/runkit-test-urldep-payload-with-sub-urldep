@@ -6,8 +6,8 @@ const lodashIsNullPackageVersion = require("lodash.isnull/package.json").version
 assert.deepStrictEqual(lodashIsNullPackageVersion, "2.1.0");
 
 const runkitTestUrldepPayloadLeaf = require("runkit-test-urldep-payload-leaf");
-const runkitTestUrldepPayloadLeafVersion = require("runkit-test-urldep-payload-leaf/package.json").version;
-assert.deepStrictEqual(runkitTestUrldepPayloadLeafVersion, "5.2.0");
+assert.deepStrictEqual(runkitTestUrldepPayloadLeaf.version, "5.2.0");
+assert.deepStrictEqual(runkitTestUrldepPayloadLeaf.hasPretendFix, true);
 
 module.exports = {
   name: "runkit-test-urldep-payload-with-sub-urldep",
